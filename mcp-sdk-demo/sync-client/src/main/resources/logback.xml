@@ -1,0 +1,16 @@
+<configuration>
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>mcp-client.log</file>
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <!-- Route all logging to file -->
+  <root level="INFO">
+    <appender-ref ref="FILE" />
+  </root>
+
+  <!-- Suppress Reactor debug logs -->
+  <logger name="reactor" level="WARN" />
+</configuration>
