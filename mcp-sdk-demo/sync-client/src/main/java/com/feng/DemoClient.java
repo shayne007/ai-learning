@@ -4,8 +4,7 @@ import io.modelcontextprotocol.client.McpClient;
 import io.modelcontextprotocol.client.McpSyncClient;
 import io.modelcontextprotocol.client.transport.ServerParameters;
 import io.modelcontextprotocol.client.transport.StdioClientTransport;
-import io.modelcontextprotocol.spec.ClientMcpTransport;
-import io.modelcontextprotocol.spec.McpTransport;
+import io.modelcontextprotocol.spec.McpClientTransport;
 
 import static io.modelcontextprotocol.spec.McpSchema.*;
 
@@ -15,8 +14,9 @@ import java.util.function.Function;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * TODO
+ * this is a demo for mcp-client use mcp java sdk
  *
+ * @author fengshiyi
  * @since 2025/4/7
  */
 public class DemoClient {
@@ -97,7 +97,7 @@ public class DemoClient {
   }
 
   @NotNull
-  private static ClientMcpTransport getMcpTransport() {
+  private static McpClientTransport getMcpTransport() {
     // npx -y @modelcontextprotocol/server-everything dir
     // 启动MCP服务器
     // 注意：需要安装Node.js环境

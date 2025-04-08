@@ -2,13 +2,13 @@ package com.feng.rag_demo;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
-import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.ai.vectorstore.pgvector.PgVectorStore;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * TODO
+ * Controller for handling RAG-enhanced chat interactions.
+ * Integrates with vector store for context-aware responses.
  *
  * @since 2025/4/1
  */

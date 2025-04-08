@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Flux;
 
 /**
- * TODO
+ * Controller for handling chat interactions with DeepSeek AI model.
+ * Provides endpoints for both synchronous and streaming chat responses using OpenAI client.
  *
  * @since 2025/4/1
  */

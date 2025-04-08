@@ -11,7 +11,8 @@ import java.time.Duration;
 import java.util.List;
 
 /**
- * TODO
+ * HTTP client implementation for DeepSeek API interactions.
+ * Handles authentication, request formatting, and response parsing for chat completions.
  *
  * @since 2025/4/1
  */

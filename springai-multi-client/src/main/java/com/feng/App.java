@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 /**
- * TODO
+ * Spring Boot application that configures multiple AI chat clients.
+ * Provides bean configurations for OpenAI and Ollama chat models.
  *
  * @since 2025/4/1
  */

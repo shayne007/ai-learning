@@ -1,7 +1,8 @@
 package com.feng.deepseek.ds;
 
 /**
- * TODO
+ * Main application class for DeepSeek API client demonstration.
+ * Showcases chat completion functionality using the DeepSeek client implementation.
  *
  * @since 2025/4/1
  */

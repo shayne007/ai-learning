@@ -9,7 +9,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 /**
- * TODO
+ * Demonstration class for basic DeepSeek API integration.
+ * Shows how to make direct HTTP requests to DeepSeek's chat completion endpoint.
  *
  * @since 2025/4/1
  */

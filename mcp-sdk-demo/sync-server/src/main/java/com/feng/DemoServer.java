@@ -22,7 +22,8 @@ import io.modelcontextprotocol.spec.McpSchema.Tool;
 import java.util.List;
 
 /**
- * TODO
+ * Model Context Protocol (MCP) demonstration server.
+ * Implements a synchronous server with tools, resources, and prompt capabilities.
  *
  * @since 2025/4/7
  */

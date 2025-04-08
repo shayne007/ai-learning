@@ -4,7 +4,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 /**
- * TODO
+ * Data models for DeepSeek API interactions.
+ * Contains record classes for request/response handling and configuration.
  *
  * @since 2025/4/1
  */
