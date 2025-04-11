@@ -28,4 +28,9 @@ public class App {
     public ChatClient ollamaChatClient(OllamaChatModel chatModel) {
         return ChatClient.create(chatModel);
     }
+
+    @Bean
+    public ChatClient dockerModelChatClient(OpenAiChatModel chatModel) {
+        return ChatClient.create(chatModel);
+    }
 }

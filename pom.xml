@@ -30,6 +30,7 @@
 		<module>mcp-sdk-demo</module>
       <module>mcp-sdk-demo/sync-client</module>
       <module>mcp-sdk-demo/sync-server</module>
+      <module>springai-alibaba</module>
     </modules>
     <scm>
 		<connection/>
