@@ -22,13 +22,13 @@
       <groupId>io.modelcontextprotocol.sdk</groupId>
       <artifactId>mcp</artifactId>
     </dependency>
-    <!-- Optional: Spring WebFlux-based SSE client and server transport -->
+    <!-- Optional: Spring WebFlux-based SSE client and mcpServer transport -->
     <dependency>
       <groupId>io.modelcontextprotocol.sdk</groupId>
       <artifactId>mcp-spring-webflux</artifactId>
     </dependency>
 
-    <!-- Optional: Spring WebMVC-based SSE server transport -->
+    <!-- Optional: Spring WebMVC-based SSE mcpServer transport -->
     <dependency>
       <groupId>io.modelcontextprotocol.sdk</groupId>
       <artifactId>mcp-spring-webmvc</artifactId>
